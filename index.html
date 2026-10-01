@@ -1,0 +1,200 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sakhi AI - Government Scheme Assistant</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>🌸 Sakhi AI</h1>
+        <p>Government Help Made Simple</p>
+    </header>
+
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- Welcome Section -->
+        <section class="welcome">
+
+            <h2>How can I help you?</h2>
+
+            <p>
+                Ask your question using simple text or voice.
+            </p>
+
+        </section>
+
+
+        <!-- Language Section -->
+        <section class="language-section">
+
+            <label for="language">
+                🌐 Choose your language:
+            </label>
+
+            <select id="language">
+
+                <option value="English">
+                    English
+                </option>
+
+                <option value="Tamil">
+                    Tamil
+                </option>
+
+                <option value="Telugu">
+                    Telugu
+                </option>
+
+                <option value="Hindi">
+                    Hindi
+                </option>
+
+                <option value="Kannada">
+                    Kannada
+                </option>
+
+            </select>
+
+        </section>
+
+
+        <!-- Scheme Selection -->
+        <section class="scheme-section">
+
+            <h3>🌸 Choose a Government Scheme</h3>
+
+            <select id="schemeSelect">
+
+                <option value="PMMVY">
+                    Pradhan Mantri Matru Vandana Yojana
+                </option>
+
+                <option value="PM-KISAN">
+                    PM-KISAN
+                </option>
+
+                <option value="BetiBachao">
+                    Beti Bachao Beti Padhao
+                </option>
+
+                <option value="Ujjwala">
+                    Pradhan Mantri Ujjwala Yojana
+                </option>
+
+                <option value="Ayushman">
+                    Ayushman Bharat
+                </option>
+
+            </select>
+
+        </section>
+
+
+        <!-- Question Section -->
+        <section class="question-section">
+
+            <h3>Ask your question</h3>
+
+            <textarea
+                id="userQuestion"
+                placeholder="Example: What government scheme is available for women?"
+            ></textarea>
+
+
+            <div class="buttons">
+
+                <button id="voiceButton">
+                    🎤 Speak
+                </button>
+
+                <button id="askButton" onclick="askAI()">
+                    🤖 Ask AI
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- Quick Questions -->
+        <section class="quick-section">
+
+            <h3>Quick Help</h3>
+
+            <button
+                class="quick-button"
+                onclick="askQuestion('What is the government scheme?')">
+                📋 Scheme Information
+            </button>
+
+            <button
+                class="quick-button"
+                onclick="askQuestion('Who is eligible for the scheme?')">
+                ✅ Check Eligibility
+            </button>
+
+            <button
+                class="quick-button"
+                onclick="askQuestion('What documents are required?')">
+                📄 Required Documents
+            </button>
+
+            <button
+                class="quick-button"
+                onclick="askQuestion('How can I apply?')">
+                📝 How to Apply
+            </button>
+
+        </section>
+
+
+        <!-- AI Response -->
+        <section class="response-section">
+
+            <h2>🤖 AI Response</h2>
+
+            <div id="aiResponse">
+
+                Hello! 👋
+
+                <br><br>
+
+                I am Sakhi AI. I can help you understand
+                government schemes, eligibility, required
+                documents and application steps.
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <p>
+            🌸 Sakhi AI | Simple • Accessible • Helpful
+        </p>
+
+    </footer>
+
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
+```
